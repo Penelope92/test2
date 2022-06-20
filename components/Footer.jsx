@@ -56,7 +56,7 @@ const Footer = () => (
 
 
 
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1%22%3E"></script>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1%22%3E" async></script>
 <df-messenger
   intent="WELCOME"
   chat-title="NoWayBot"

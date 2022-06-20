@@ -6,7 +6,7 @@
 // import millify from 'millify';
 
 // import { baseUrl, fetchApi } from '../../utils/fetchApi';
-// //import ImageScrollbar from '../../components/ImageScrollbar';
+
 
 // const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title, baths, area, agency, isVerified, description, type, purpose, furnishingStatus, amenities, photos } }) => (
 //   <Box maxWidth='1000px' margin='auto' p='4'>
@@ -87,7 +87,7 @@ import {useUser} from '@auth0/nextjs-auth0';
 
 
 import { baseUrl, fetchApi } from '../../utils/fetchApi';
-//import ImageScrollbar from '../../components/ImageScrollbar';
+
 
 
 
@@ -104,7 +104,7 @@ const PropertyDetails = ({ propertyDetails: { coverPhoto, _id, telNumber, price,
     
   <Box maxWidth='1000px' margin='auto' p='4' marginBottom={10}>
   <Image src={coverPhoto ? coverPhoto : DefaultImage} width={1100} height={650} />
-    {photos && <ImageScrollbar data={photos} />}
+    {photos}
     <Box w='full' p='6'>
       <Flex paddingTop='2' alignItems='center'>
         <Box paddingRight='3' color='green.400'>{isVerified && <GoVerified />}</Box>
