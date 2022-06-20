@@ -25,10 +25,10 @@ function MyApp({ Component, pageProps }) {
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css' integrity='sha512-42kB9yDlYiCEfx2xVwq0q7hT4uf26FUgSIZBK8uiaEnTdShXjwr8Ip1V4xGJMg3mHkUt9nNuTDxunHF0/EgxLQ==' crossOrigin='anonymous' referrerPolicy='no-referrer' />
         <style>
  {` df-messenger {
-   --df-messenger-bot-message: #b2c581;
-   --df-messenger-button-titlebar-color: #b2c581;
+   --df-messenger-bot-message: #white;
+   --df-messenger-button-titlebar-color: #b2c581 ;
    --df-messenger-chat-background-color: #fafafa;
-   --df-messenger-font-color: white;
+   --df-messenger-font-color: 393939;
    --df-messenger-send-icon: ##B2C581;
    --df-messenger-user-message: #479b3d;
    }`}</style>
